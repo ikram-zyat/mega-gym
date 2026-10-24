@@ -40,21 +40,5 @@ export const coachFields = [
   { k: "dispo", label: "Disponibilités" },
 ];
 
-export const SEED = {
-  members: [
-    { id: 1, nom: "Yassine Benali", telephone: "0661 23 45 67", formule: "Annuel", coach: "Karim Bennani", debut: "2026-01-12", statut: "Actif" },
-    { id: 2, nom: "Salma El Idrissi", telephone: "0662 98 10 22", formule: "Trimestriel", coach: "Nadia Lahlou", debut: "2026-08-03", statut: "Actif" },
-    { id: 3, nom: "Omar Tazi", telephone: "0670 11 54 09", formule: "Mensuel", coach: "Hamza Chraibi", debut: "2026-09-15", statut: "En attente" },
-    { id: 4, nom: "Khadija Amrani", telephone: "0655 40 31 78", formule: "Mensuel", coach: "—", debut: "2026-05-02", statut: "Expiré" },
-  ],
-  leads: [
-    { id: 1, nom: "Mehdi Alaoui", telephone: "0664 71 20 33", objectif: "Prise de masse", statut: "Nouveau", note: "Contact via Instagram" },
-    { id: 2, nom: "Imane Berrada", telephone: "0668 05 92 14", objectif: "Perte de poids", statut: "Séance d'essai", note: "Essai samedi 10h" },
-    { id: 3, nom: "Anas Kabbaj", telephone: "0672 66 18 40", objectif: "Remise en forme", statut: "Contacté", note: "" },
-  ],
-  coachs: [
-    { id: 1, nom: "Karim Bennani", specialite: "Musculation", dispo: "Lun – Ven, 8h – 14h" },
-    { id: 2, nom: "Nadia Lahlou", specialite: "Fitness et cardio", dispo: "Mar – Sam, 14h – 21h" },
-    { id: 3, nom: "Hamza Chraibi", specialite: "Boxe et CrossFit", dispo: "Lun, Mer, Ven, 17h – 22h" },
-  ],
-};
+// Aucune donnée de démonstration : l'espace démarre vide.
+export const SEED = { members: [], leads: [], coachs: [] };
