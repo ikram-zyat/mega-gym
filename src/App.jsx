@@ -5,8 +5,8 @@ import { ADMIN } from "./admin.config.js";
 import { SEED, TONES, MESSAGES, OBJECTIFS, memberFields, leadFields, coachFields } from "./data.js";
 import Manager from "./Manager.jsx";
 
-// Photo du hero : placez une image dans public/images/hero.jpg (voir le README).
-const HERO = import.meta.env.BASE_URL + "images/hero.jpg";
+// Photo du hero : placez une image dans public/images/hero.png (voir le README).
+const HERO = import.meta.env.BASE_URL + "images/hero.png";
 
 const Dumbbell = ({ h = 28, color = "#f9395a" }) => (
   <svg width={h * 1.5} height={h} viewBox="0 0 60 40" fill="none" stroke={color} strokeWidth="5" strokeLinecap="round" aria-hidden="true">

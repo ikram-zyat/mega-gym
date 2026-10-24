@@ -26,7 +26,7 @@ npm run dev
 Le site est statique : il n'y a pas de serveur ni de base de données. Les comptes et les données sont enregistrés **dans le navigateur** de chaque visiteur : un client inscrit sur un appareil n'est donc visible que sur ce même navigateur. Les mots de passe sont hachés (SHA-256), mais ce n'est pas une vraie sécurité. Pour un usage réel, il faudrait un backend (par exemple Laravel) avec une vraie authentification.
 
 ## Photo de l'accueil
-Ajoutez une photo de salle de sport sous le nom `public/images/hero.jpg` (format paysage, 1920 px de large environ). Sans photo, un fond sombre s'affiche à la place.
+Ajoutez une photo de salle de sport sous le nom `public/images/hero.png` (format paysage, 1920 px de large environ). Sans photo, un fond sombre s'affiche à la place.
 
 ## Créer le compte administrateur
 ```bash
